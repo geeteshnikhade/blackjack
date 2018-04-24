@@ -51,6 +51,16 @@ class Deck {
 	}
 
 	int getCardValue(String card) {
+		if (card.equals("A")) {
+			System.out.println("What should Ace be? Enter 1 for 1 and 2 for 11");
+			int i = new Scanner(System.in).nextInt();
+			while (i != 1 && i != 2) {
+				System.out.println("Please enter a correct value");
+				i = new Scanner(System.in).nextInt();
+			}
+			return i == 1 ? 1 : 11;
+		}
+
 		if (card.equals("King") || card.equals("Queen") || card.equals("Jack")) {
 			return 10;
 		}
