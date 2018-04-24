@@ -11,7 +11,7 @@ public class Blackjack {
 		Game newgame = new Game(currentPlayer, currentDeck);
 		while (currentPlayer.checkBal()) {
 			System.out.println("===============NEW GAME=====================");
-			System.out.println("Your current Balane is : " + currentPlayer.balance);
+			System.out.println("Your current Balance is : " + currentPlayer.balance);
 			System.out.println("Do you want to play a new game\n1. Yes\n2. No\n");
 			int choice = sc.nextInt();
 			if (choice == 2) {
