@@ -1,9 +1,9 @@
 # Blackjack #
 
 Don't have a deck of cards?
-We got you covered.
+Don't worry, we got you covered!
 
-Here is a **JAVA** implementation of the game Blackjack which can be used to learn Blackjack or master it. 
+Here is a **JAVA** implementation of the game Blackjack which can be used to learn or master it. 
 
 The ***conditions*** of the game are as follows:
 * See this [Link](https://blog.udemy.com/blackjack-rules-2/) for the rules of Blackjack.
